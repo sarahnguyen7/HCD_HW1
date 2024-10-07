@@ -13,16 +13,23 @@ The goal of this assignment is to construct, analyze, and publish a dataset of m
 - [Known Issues](#known-issues)
 - [Installation and Usage](#installation-and-usage)
 
+## Source Data
+The rare diseases data is a subset of Wikipedia article pages. This is a subset of the English Wikipedia that represents a large number of articles related to rare diseases. This list of pages was collected by using a database of rare diseases maintained by the National Organization for Rare Diseases (NORD) and matching them to Wikipedia articles that are either about a rare disease or have a section that mentions a rare disease.
+
 ## License
+The code written was developed in combination of myself, ChatGPT, Dr. David. W. McDonald for use in Data 512, a UW MS Data Science Degree program. The authors of the code will be referenced in the specifc code they were used in. Licenses for all are listed down below. 
 
-The source data is governed by the [Wikimedia Foundation terms of use](https://foundation.wikimedia.org/wiki/Terms_of_use). It is a subset of Wikipedia article pages. This is a subset of the English Wikipedia that represents a large number of articles related to rare diseases. This list of pages was collected by using a database of rare diseases maintained by the National Organization for Rare Diseases (NORD) and matching them to Wikipedia articles that are either about a rare disease or have a section that mentions a rare disease.
+#### Wikipedia API Example Code
+The source data is governed by the [Wikimedia Foundation terms of use](https://foundation.wikimedia.org/wiki/Terms_of_use). The datasets created from this project is subject to the same terms, allowing for reuse and redistribution with appropriate attribution.
 
-The datasets created from this project is subject to the same terms, allowing for reuse and redistribution with appropriate attribution.
+#### Dr. David W. McDonald's Example Code
+This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024
 
-The code written was developed in combination of myself, ChatGPT, Dr. David. W. McDonald for use in Data 512, a UW MS Data Science Degree program. The authors of the code will be referenced in the specifc code they were used in. 
+#### Sarah Nguyen's Code
+This code is provided under the Creative Commons CC-BY license. Revision 1.3 - August 16, 2024.
 
-Dr. McDonald and I's code is provided under the Creative Commons CC-BY license. Revision 1.3 - August 16, 2024.
-ChatGPT's code is provided under the Creative Commons Attribution 4.0 International License.
+#### GPT-4
+Some portions of this project were assisted by GPT-4, an AI model by OpenAI.
 
 ## API Documentation
 
