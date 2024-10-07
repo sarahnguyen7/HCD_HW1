@@ -11,6 +11,7 @@ The goal of this assignment is to construct, analyze, and publish a dataset of m
 - [Data Files](#data-files)
 - [Data Schema](#data-schema)
 - [Known Issues](#known-issues)
+- [Instructions for Use](#instructions-for-use)
 - [Functions](#functions)
 
 ## Source Data
@@ -74,5 +75,10 @@ Each JSON file contains the following structure:
 ```
 ## Known Issues
 Data was tied for some but only listed 10
+
+## Instructions for Use
+Ensure you have Python and all the required required packages installed:
+
+pip install requests pandas matplotlib
 
 ## Functions
