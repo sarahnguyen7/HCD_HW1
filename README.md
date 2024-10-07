@@ -26,7 +26,7 @@ The source data is governed by the [Wikimedia Foundation terms of use](https://f
 This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024
 
 #### Sarah Nguyen's Code
-This code is provided under the Creative Commons CC-BY license. Revision 1.3 - August 16, 2024.
+This code was developed by Sarah Nguyen for use in DATA 512 homework, which is coursework provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024.
 
 #### GPT-4
 Some portions of this project were assisted by GPT-4, an AI model by OpenAI.
