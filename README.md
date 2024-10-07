@@ -1,5 +1,5 @@
 # HCD_HW1
-# Wikipedia Rare Disease Pageviews Analysis
+# Monthly Wikipedia Rare Disease Pageviews Analysis
 
 ## Project Goal
 The goal of this assignment is to construct, analyze, and publish a dataset of monthly article traffic for a select set of rare disease pages from English Wikipedia from July 1, 2015 through September 30, 2024. Pageview data was pulled from desktop, mobile-web, and mobile-app using the Wikipedia API.
@@ -11,7 +11,7 @@ The goal of this assignment is to construct, analyze, and publish a dataset of m
 - [Data Files](#data-files)
 - [Data Schema](#data-schema)
 - [Known Issues](#known-issues)
-- [Installation and Usage](#installation-and-usage)
+- [Functions](#functions)
 
 ## Source Data
 The rare diseases data is a subset of Wikipedia article pages. This is a subset of the English Wikipedia that represents a large number of articles related to rare diseases. This list of pages was collected by using a database of rare diseases maintained by the National Organization for Rare Diseases (NORD) and matching them to Wikipedia articles that are either about a rare disease or have a section that mentions a rare disease.
@@ -48,10 +48,13 @@ Final Data Input Files:
 - `rare-disease_pageviews_desktop201507-202409.json`
 - `rare-disease_pageviews_mobile201507-202409.json`
 - `rare-disease_pageviews_cumulative201507-202409.json`
+
 Plots
-- 
+- `.png`
+- `.png`
+- `.png`
 ## Data Schema
-The schema was designed to ... go back to this later, need to look up database class info
+The schema was designed to ... go back to this later, need to look up database class info. Designed to look up by disease name/article title to help with indexing
 Each JSON file contains the following structure:
 
 ```json
@@ -68,3 +71,8 @@ Each JSON file contains the following structure:
         ]
     }
 }
+```
+## Known Issues
+Data was tied for some but only listed 10
+
+## Functions
