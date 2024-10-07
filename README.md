@@ -51,17 +51,16 @@ Final Data Input Files:
 - `rare-disease_pageviews_cumulative201507-202409.json`
 
 Plots
-- `.png`
-- `.png`
-- `.png`
+- `MaxMinAvg.png`
+- `top10peeak.png`
+- `fewestmonthsofdata.png`
 ## Data Schema
 The schema was designed to ... go back to this later, need to look up database class info. Designed to look up by disease name/article title to help with indexing
 Each JSON file contains the following structure:
 
 ```json
 {
-    "article_title": {
-        "platform_name": [
+    "article_title": { [
             {
                 "project": "string",
                 "granularity": "string",
