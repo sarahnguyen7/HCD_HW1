@@ -2,7 +2,7 @@
 # Monthly Wikipedia Rare Disease Pageviews Analysis
 
 ## Project Goal
-The goal of this assignment is to construct, analyze, and publish a dataset of monthly article traffic for a select set of rare disease pages from English Wikipedia from July 1, 2015 through September 30, 2024. Pageview data was pulled from desktop, mobile-web, and mobile-app using the Wikipedia API. This is shown through HCD_Homework1.ipynb.
+The goal of this assignment is to construct, analyze, and publish a dataset of monthly article traffic for a select set of rare disease pages from English Wikipedia from July 1, 2015 through September 30, 2024. Pageview data was pulled from desktop, mobile-web, and mobile-app using the Wikipedia API. This is shown through `HCD_Homework1.ipynb`.
 
 ## Table of Contents
 
