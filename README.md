@@ -30,7 +30,7 @@ This code example was developed by Dr. David W. McDonald for use in DATA 512, a 
 This code was developed by Sarah Nguyen for use in DATA 512 homework, which is coursework provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024.
 
 #### GPT-4
-Some portions of this project were assisted by GPT-4, an AI model by OpenAI.
+Portions of this project were assisted by GPT-4, an AI model by OpenAI.  These are indicated in the notebook and subject to Open AI's [Terms of Use](https://openai.com/policies/row-terms-of-use/). It was also used to help rewrite some my documentation to help standardize format.
 
 ## API Documentation
 
@@ -60,7 +60,8 @@ Each JSON file contains the following structure:
 
 ```json
 {
-    "article_title": { [
+    "article_title": {
+        [
             {
                 "project": "string",
                 "granularity": "string",
@@ -74,10 +75,26 @@ Each JSON file contains the following structure:
 ```
 ## Known Issues
 Data was tied for some but only listed 10
+issues with URL, these pages are no included in the json
+Issues with the data set - some diseases aren't diseases.
+
 
 ## Instructions for Use
 Ensure you have Python and all the required required packages installed:
 
-pip install requests pandas matplotlib
+- `pip install requests`
+- `pip install pandas` 
+- `pip install matplotlib`
 
 ## Functions
+- `request_pageviews_per_article` (created by Dr. McDonald) 
+- `collect_pageviews` is a function that takes an article title and platform as inputs. It  collects/requests the pageview data from the REST API using the function request_pageviews_per_article (originally developed by Dr. McDonald). It formats it into the desired input and saves the data for each access point
+If successful, the function returns the JSON response containing pageview data for the given article and platform. If the request fails, it prints an error message.
+- `load_data` is a function that opens the file path for a list of file paths
+- `combine_json_objects` is a function to combine pageview data across JSON files based on article (disease) and timestamp
+- `combine_files` is a function to combine data from multiple files and save the result
+- `json_to_df`is a function to convert JSON data to Pandas DataFrame which makes it easier for data manipulation
+- `setup_plot` is designed to be a helper function for setting up the plot since they all use the same axis
+- `save_plot` is a function that saves and shows the plot
+
+
