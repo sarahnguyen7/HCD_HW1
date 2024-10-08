@@ -74,9 +74,16 @@ Each JSON mentioned above file contains the following structure:
 }
 ```
 ## Known Issues
-Data was tied for some but only listed 10
-issues with URL, these pages are no included in the json
-Issues with the data set - some diseases aren't diseases.
+Some issues a user may encounter 
+Rank Ties in Graphs:
+
+In some of the generated graphs, certain diseases have tied rankings based on their pageview data. However, these ties are not visually indicated on the graphs, and only the top 10 articles are displayed. This may result in tied diseases being excluded from the displayed results.
+URL Encoding Issues:
+
+Some article titles containing special characters, particularly a forward slash (/), caused issues when requesting pageview data from the Wikimedia API. As a result, pageview data for articles with slashes in the title could not be retrieved, and these articles are not included in the final JSON output.
+Non-Disease Articles in the Dataset:
+
+The dataset includes several articles that are not directly related to diseases but are disease-adjacent. Examples include "Yellowstone Park bison herd" and "Maui dolphin," which are topics that have sections related to diseases or are in close proximity to disease-related content. These articles are included in the data but may not be relevant to the primary focus on diseases.
 
 
 ## Instructions for Use
