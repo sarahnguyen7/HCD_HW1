@@ -55,8 +55,8 @@ Plots
 - `top10peeak.png`
 - `fewestmonthsofdata.png`
 ## Data Schema
-The schema was designed to ... go back to this later, need to look up database class info. Designed to look up by disease name/article title to help with indexing
-Each JSON file contains the following structure:
+The schema was designed to look up by disease name/article title to help with indexing. 
+Each JSON mentioned above file contains the following structure:
 
 ```json
 {
