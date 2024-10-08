@@ -27,7 +27,7 @@ The source data is governed by the [Wikimedia Foundation terms of use](https://f
 This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024
 
 #### Sarah Nguyen's Code
-This code was developed by Sarah Nguyen for use in DATA 512 homework, which is coursework provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024.
+This code was developed by Sarah Nguyen for use in DATA 512 homework, which is coursework provided under the [MIT License](https://chatgpt.com/c/67048ab0-3d24-8001-88ce-c354bb934b32#:~:text=under%20the%20MIT-,License,-.).
 
 #### GPT-4
 Portions of this project were assisted by GPT-4, an AI model by OpenAI.  These are indicated in the notebook and subject to Open AI's [Terms of Use](https://openai.com/policies/row-terms-of-use/). It was also used to help rewrite some my documentation to help standardize format.
@@ -87,7 +87,7 @@ Ensure you have Python and all the required required packages installed:
 - `pip install matplotlib`
 
 ## Functions
-- `request_pageviews_per_article` (created by Dr. McDonald) 
+- `request_pageviews_per_article` (created by Dr. McDonald) is an API request made using one function to make the code resuable. It has paramters but relies on constants listed in the Notebook.
 - `collect_pageviews` is a function that takes an article title and platform as inputs. It  collects/requests the pageview data from the REST API using the function request_pageviews_per_article (originally developed by Dr. McDonald). It formats it into the desired input and saves the data for each access point
 If successful, the function returns the JSON response containing pageview data for the given article and platform. If the request fails, it prints an error message.
 - `load_data` is a function that opens the file path for a list of file paths
